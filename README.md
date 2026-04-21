@@ -30,7 +30,7 @@ The workflow converts cycle timestamps to UTC, trims all tables to the earliest 
 The predictive task is next-day change in recovery score. Features include current-day physiological measures and several lagged variables. To preserve valid time ordering, lag features and targets are generated separately inside each continuous data segment rather than across breaks in tracking. The app compares:
 
 - Random Forest
-- Linear Regression on standardized inputs
+- Linear Regression on normalized inputs
 - a naive baseline that predicts zero change
 
 Model diagnostics include actual vs predicted recovery, residual behavior over time, prediction scatterplots, residual distributions, and feature importance or coefficient plots.
