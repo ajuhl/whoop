@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+.venv/
+
+physiological_cycles.csv
+sleeps.csv
+journal_entries.csv
+workouts.csv
